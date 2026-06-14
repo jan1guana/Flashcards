@@ -2,7 +2,7 @@
 
 Submitted by: **Jannelle Elleson**
 
-This web app: **insert description**
+This web app: **A list of flashcards where you guess the correct country based on the images provided**
 
 Time spent: **10** hours spent in total
 
