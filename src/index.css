@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  align-items: center;
+  background-color: #adedc2;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+  transform-style: preserve-3d;
+  transition: 150ms;
+  font-weight: 700px;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+img {
+
+  height: 300px;
+  width: 400px;
+
+
+}
