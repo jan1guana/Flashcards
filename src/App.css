@@ -13,14 +13,3 @@ body {
 }
 
 
-
-button {
-  color: white;
-  background-color: black;
-  border: none;
-  font-size: 40px;
-  margin-top: 7px;
-  border-radius: 7px;
-  border-width: 40px;
-  cursor: pointer;
-}

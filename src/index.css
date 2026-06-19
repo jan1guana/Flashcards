@@ -1,3 +1,7 @@
+.streak {
+  font-weight: bold;
+}
+
 .card {
   display: flex;
   justify-content: center;
@@ -31,10 +35,54 @@
 .card-back {
   transform: rotateY(180deg);
 }
-img {
 
+img {
   height: 300px;
   width: 400px;
+}
 
+.submit-answer{
+  font-weight: bold;
+  font-size: 30px;
 
+}
+
+input {
+  size: 30px;
+  width: 150px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.button-submit {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+#wrong {
+  background-color: red;
+}
+
+#correct {
+  background-color: greenyellow;
+}
+
+.navigation {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 40px;
+  margin-top: 7px;
+  border-radius: 7px;
+  border-width: 40px;
+  cursor: pointer;
+}
+
+.navigation:disabled {
+  opacity: 50%;
 }
