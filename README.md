@@ -43,7 +43,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented required features:
 
 <img width="800" height="450" alt="Geography Flashcard p2" src="https://github.com/user-attachments/assets/a1b46779-882b-403e-bc05-e0350211ce92" />
 
